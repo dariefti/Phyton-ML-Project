@@ -8,8 +8,10 @@ In this case, however, both FuzzyWuzzy and BERT achieved similar accuracy, with 
 
 •	Class overflow
 The dataset contains a high number of unique classes (company names), which could overwhelm the model, making it challenging to generalize to new data.
+
 •	Insufficient variation
 Limited diversity in name patterns means that complex model training might not yield additional benefits. FuzzyWuzzy’s simpler approach proved effective in this context.
+
 •	Overfitting
 Training a model on this dataset might lead to overfitting, where the model learns specific idiosyncrasies instead of general patterns, potentially resulting in inaccuracies with new data.
 
